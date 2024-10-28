@@ -23,4 +23,6 @@ str2 = 'python'
 
 str1 += str2
 str1 = str1 + str2
-print(str1)
+
+text = 'fxxk' 'python' '!!!'
+print(text)
