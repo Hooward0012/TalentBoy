@@ -48,12 +48,26 @@ String 是不可变类型的，它是一种类似于列表的数据结构，
 字符分割
 '''
 
-str1 = "2019-10-1 14:00:23"
-list = []
-list = str1.split(' ')
-print(list)
-list2 = str1.split(' ')[0].split('-')
-print(list2)
-list3 = str1.split(' ')[1].split(':')
-print(list3)
+# str1 = "2019-10-1 14:00:23"
+# list = []
+# list = str1.split(' ')
+# print(list)
+# list2 = str1.split(' ')[0].split('-')
+# print(list2)
+# list3 = str1.split(' ')[1].split(':')
+# print(list3)
+#
 
+'''
+String 的空格 和 大小写
+'''
+str1 = '      beautiful world    '
+print(str1)
+str2 = str1.strip()
+print(str2)
+
+string = "ITS MOST BEAUTIFUL TIME OF YEAR"
+string2 = string.lower()
+print(string2)
+string3 = string2.upper()
+print(string3)
