@@ -10,12 +10,24 @@
 #
 # my_func()
 
+# age = 18
+#
+# def my_func():
+#     age = 66
+#     def my_inner_func():
+#         nonlocal  age
+#         age += 1
+#         print(age)
+#     my_inner_func()
+#
+# my_func()
+
 age = 18
 
 def my_func():
     age = 66
     def my_inner_func():
-        nonlocal  age
+        global  age
         age += 1
         print(age)
     my_inner_func()
