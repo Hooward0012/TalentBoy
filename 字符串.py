@@ -10,7 +10,17 @@ String 是不可变类型的，它是一种类似于列表的数据结构，
 '''
 使用r来显示原始字符
 '''
-str = '1234\n567'
-print(str)
-str1 = r'1234\n567'
-print(f'str1:{str1}')
+# str = '1234\n567'
+# print(str)
+# str1 = r'1234\n567'
+# print(f'str1:{str1}')
+
+'''
+字符串拼接
+'''
+str1 = 'fxxk'
+str2 = 'python'
+
+str1 += str2
+str1 = str1 + str2
+print(str1)
