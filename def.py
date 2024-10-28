@@ -4,7 +4,8 @@ def my_func():
     name = 'howard'
     print(name)
 
-    global age = age + 1
+    global age
+    age = age + 1
     print(age)
 
 my_func()
