@@ -61,13 +61,23 @@ String 是不可变类型的，它是一种类似于列表的数据结构，
 '''
 String 的空格 和 大小写
 '''
-str1 = '      beautiful world    '
-print(str1)
-str2 = str1.strip()
-print(str2)
+# str1 = '      beautiful world    '
+# print(str1)
+# str2 = str1.strip()
+# print(str2)
+#
+# string = "ITS MOST BEAUTIFUL TIME OF YEAR"
+# string2 = string.lower()
+# print(string2)
+# string3 = string2.upper()
+# print(string3)
 
-string = "ITS MOST BEAUTIFUL TIME OF YEAR"
-string2 = string.lower()
-print(string2)
-string3 = string2.upper()
-print(string3)
+'''
+String 的判断
+'''
+str1 = 'steph curry is my favourite player'
+a = str1.startswith('steph')
+print(a)
+b = str1.endswith('player')
+print(b)
+
