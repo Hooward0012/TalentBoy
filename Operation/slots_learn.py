@@ -1,30 +1,29 @@
 '''
 快速访问类的属性
 '''
-# import timeit
-#
-#
-# class Person:
-#     def __init__(self):
-#         self.name = 'howard'
-#         self.age = 18
-#
-#
-# howard = Person()
-# print(howard.name)
-#
-#
-# def test_fn(obj):
-#     def set_del_attr():
-#         obj.name = 'howard'
-#         obj.name
-#         del obj.name
-#
-#     return set_del_attr
-#
-#
-# #
-# print(min(timeit.repeat(test_fn(howard), number=1000000)))
+import timeit
+
+
+class Person:
+    def __init__(self):
+        self.name = 'howard'
+        self.age = 18
+
+
+howard = Person()
+print(howard.name)
+
+
+def test_fn(obj):
+    def set_del_attr():
+        obj.name = 'howard'
+        obj.name
+        del obj.name
+
+    return set_del_attr
+
+
+#print(min(timeit.repeat(test_fn(howard), number=1000000)))
 
 '''
 限制类的实例属性
